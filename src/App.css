@@ -212,7 +212,7 @@ section img {
   align-items: center;
   max-width: 100%;
 }
-.Text1961 {
+.Text1961, .Text19612 {
   max-width: 500px;
   display: flex;
   padding-left: 100px;
@@ -794,9 +794,17 @@ p {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 320px) {
+  .BeatlesHistoriaImg {
+    width: 175px;
+  }
+
   .NowAndThen img {
     width: 375px;
+  }
+
+  .MusicaTitulo {
+    padding-bottom: 50px;
   }
 
   .Contato {
@@ -808,15 +816,48 @@ p {
   }
 
   .TextHistoria {
-    width: 370px;
+    width: 300px;
+  }
+
+  .Text1961 {
+    font-size: 12px;
+    padding-top: 100px;
+  }
+
+  .Text19612 {
+    font-size: 12px;
+    padding-left: 0;
   }
 
   .Text {
-    width: 360px;
+    width: 300px;
+    font-size: 12px;
   }
 
   .slick-dots li button:before {
     padding-top: 320px;
+  }
+
+  .MusicasComponente {
+    padding-top: 200px;
+  }
+
+  .SessaoMusicas {
+    width: 90%;
+    justify-content: center;
+  }
+
+  .NomeNumero {
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .NowAndThen img{
+    width: 320px;
+  }
+
+  .Contato {
+    font-size: 8px;
   }
 }
 

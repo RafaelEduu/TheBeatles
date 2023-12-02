@@ -13,7 +13,7 @@ export default function Terceiro() {
       </div>
       <div className="TextAndImage">
         <div>
-          <p className="Text1961">
+          <p className="Text19612">
             Desentendimentos e discussões entre os 4 integrantes, resultaram na
             separção do grupo em 1970.
             <br /> <br /> Acusçãoes são feitas que Yoko Ono (mulher de John)
