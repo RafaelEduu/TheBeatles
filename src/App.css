@@ -556,13 +556,17 @@ p {
 
   .NomeNumero {
     align-items: center;
-    justify-content: flex-start;
     margin: auto;
+    width: 100%;
+  }
+
+  .AlbumNome {
     width: 100%;
   }
 
   .NomeMusica h1 {
     width: 100%;
+    font-size: 15px;
   }
 
   .Rodape {
@@ -628,7 +632,7 @@ p {
     flex-direction: column;
     padding-bottom: 40px;
     border-bottom: 1px solid #202020;
-    width: 60%;
+    width: 70%;
   }
 }
 
