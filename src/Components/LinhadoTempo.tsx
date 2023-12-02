@@ -8,7 +8,7 @@ export default function LinhaDoTempo() {
     dots: true,
     infinite: true,
     slidesToShow: 1,
-/*     autoplay: true, */
+     autoplay: true, 
     autoplaySpeed: 10000,
     pauseOnHover: false,
     arrows: false,

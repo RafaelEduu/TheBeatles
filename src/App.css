@@ -794,6 +794,32 @@ p {
   }
 }
 
+@media (max-width: 375px) {
+  .NowAndThen img {
+    width: 375px;
+  }
+
+  .Contato {
+    font-size: 10px;
+  }
+
+  .NomeNumero img {
+    padding-left: 10px;
+  }
+
+  .TextHistoria {
+    width: 370px;
+  }
+
+  .Text {
+    width: 360px;
+  }
+
+  .slick-dots li button:before {
+    padding-top: 320px;
+  }
+}
+
 .ColorBloco {
   width: 100%;
   background-color: #303030;
