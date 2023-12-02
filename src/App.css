@@ -357,6 +357,7 @@ p {
 .AlbunsDivisão {
   font-family: "Bai Jamjuree", sans-serif;
   padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .BlocoDoAlbum {
@@ -548,6 +549,7 @@ p {
 }
 
 @media (max-width: 768px) {
+
   .História {
     flex-direction: column-reverse;
   }
@@ -556,6 +558,11 @@ p {
     align-items: center;
     justify-content: flex-start;
     margin: auto;
+    width: 100%;
+  }
+
+  .NomeMusica h1 {
+    width: 100%;
   }
 
   .Rodape {
@@ -582,7 +589,7 @@ p {
     width: auto;
     justify-content: center;
     max-width: 100%;
-    width: 160px;
+    width: 150px;
   }
 
   .AlbunsWrap  {
@@ -621,7 +628,7 @@ p {
     flex-direction: column;
     padding-bottom: 40px;
     border-bottom: 1px solid #202020;
-    width: 40%;
+    width: 60%;
   }
 }
 
