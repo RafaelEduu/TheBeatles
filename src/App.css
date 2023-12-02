@@ -759,6 +759,7 @@ p {
     flex-direction: column;
     padding-bottom: 40px;
     border-bottom: 1px solid #202020;
+    width: 90%;
   }
 
   .InformaçoesMusicas {
