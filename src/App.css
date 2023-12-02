@@ -136,7 +136,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding-left: 100px;
+  padding-left: 50px;
 }
 
 .Ano2 {
@@ -552,6 +552,12 @@ p {
     flex-direction: column-reverse;
   }
 
+  .NomeNumero {
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+  }
+
   .Rodape {
     flex-direction: column;
   }
@@ -609,6 +615,13 @@ p {
 
   .BlocoDoAlbum {
     margin-bottom: 20px;
+  }
+
+  .SessaoMusicas {
+    flex-direction: column;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #202020;
+    width: 40%;
   }
 }
 
