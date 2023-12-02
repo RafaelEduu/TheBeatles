@@ -25,7 +25,7 @@ export default function LinhaDoTempo() {
   };
 
   return (
-    <div>
+    <div className="CorpoLinhaDoTempo">
       <Slider {...settings} className="Testete">
         <Primeiro />
         <Segundo />

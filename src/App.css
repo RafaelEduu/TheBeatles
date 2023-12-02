@@ -85,7 +85,6 @@
 }
 
 .TextHistoria {
-  width: 500px;
   padding-left: 100px;
 }
 
@@ -208,14 +207,15 @@ section img {
 
 .TextAndImage {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   max-width: 100%;
+  width: 100%;
+  padding-left: 10%;
 }
 .Text1961, .Text19612 {
   max-width: 500px;
   display: flex;
-  padding-left: 100px;
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 16px;
@@ -344,7 +344,7 @@ section img {
 
 .BeatlesHistoriaImg {
   max-width: 100%;
-  width: 600px;
+  width: 90%;
   position: relative;
   border: 1px solid #8b8c89;
 }
@@ -399,7 +399,7 @@ p {
 }
 
 .NowAndThen img {
-  width: 700px;
+  width: 60%;
 }
 
 .TheLastSong {
@@ -458,17 +458,18 @@ p {
 .NomeNumero {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .NomeNumero img {
   width: 40px;
   height: 40px;
-  padding-left: 80px;
+  padding-left: 10%;
 }
 
 .InformaçoesMusicas {
   display: flex;
-  width: 35%;
+  width: 55%;
   justify-content: space-between;
 }
 
@@ -551,12 +552,25 @@ p {
     flex-direction: column-reverse;
   }
 
+  .Rodape {
+    flex-direction: column;
+  }
+
   .AlbunsDescrição {
     align-items: center;
     padding-top: 250px;
     margin-bottom: 130px;
   }
+  
+  .CorpoLinhaDoTempo {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 140vh;
+  }
 
+  .slick-dots li ::before {
+    padding-top: 50px;
+  }
   
   .AlbumImg{
     width: auto;
@@ -583,10 +597,6 @@ p {
     flex-direction: column-reverse;
   }
 
-  .MusicaTitulo {
-    padding-top: 500px;
-  }
-
   .Descriçao {
     display: flex;
     justify-content: center;
@@ -607,16 +617,17 @@ p {
     max-width: 425px;
   }
 
+  .Text {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+
   .AlbumImg{
     width: 120px;
   }
 
   .Modal img {
     width: 250px;
-  }
-
-  .Text {
-    width: 400px;
   }
 
   .Rodape {
@@ -693,10 +704,6 @@ p {
     height: 200px;
   }
 
-  .slick-list:nth-child(1) {
-    margin-top: 500px;
-  }
-
   .CavernClubImage img {
     max-width: 100%;
     width: 200px;
@@ -714,7 +721,6 @@ p {
   .TextHistoria {
     padding: 0;
     margin: auto;
-    width: 425px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -735,13 +741,13 @@ p {
     border-bottom: 1px solid #202020;
   }
 
-  .NomeNumero {
-    width: 100%;
-  }
-
   .InformaçoesMusicas {
     gap: 20px;
     justify-content: center;
+  }
+
+  .Text1961, .Text19612{
+    font-size: 15px;
   }
 
   .TextoFinal {
@@ -750,27 +756,23 @@ p {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .NomeNumero img {
     padding-left: 15px;
   }
 
   .AlbunsDivisão {
     flex-direction: column-reverse;
-  }
-
-  .TextHistoria {
-    width: 320px;
+    padding-top: 0px;
   }
 
   .Text {
-    width: 310px;
     align-items: center;
     justify-content: center;
   }
 
   .Contato {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .AlbunsDescrição {
@@ -783,10 +785,6 @@ p {
 
   .AlbumImg {
     width: 100px;
-  }
-
-  .NomeNumero {
-    justify-content: center;
   }
 
   .NowAndThen img {
@@ -815,10 +813,6 @@ p {
     padding-left: 10px;
   }
 
-  .TextHistoria {
-    width: 300px;
-  }
-
   .Text1961 {
     font-size: 12px;
     padding-top: 100px;
@@ -830,12 +824,8 @@ p {
   }
 
   .Text {
-    width: 300px;
-    font-size: 12px;
-  }
 
-  .slick-dots li button:before {
-    padding-top: 320px;
+    font-size: 12px;
   }
 
   .MusicasComponente {

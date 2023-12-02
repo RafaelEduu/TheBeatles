@@ -1,40 +1,20 @@
 import Um from "../assets/1.svg";
-import AbbeyRoad from '../assets/AbbeyRoad.svg';
-import SgrPepersLonely from '../assets/SgrPepersLonely.svg';
-
+import AbbeyRoad from "../assets/AbbeyRoad.svg";
+import SgrPepersLonely from "../assets/SgrPepersLonely.svg";
 
 export default function Albuns() {
   return (
-    <div
-      className="AlbunsDivisão"
-      style={{ paddingTop: "400px", display: "flex" }}
-    >
+    <div className="AlbunsDivisão">
       <div className="ColorBloco"></div>
       <div className="AlbunsWrap">
         <div className="AlbumImg">
-          <img
-            className="ImagemAlbum"
-            src={SgrPepersLonely}
-            alt=""
-          />
+          <img className="ImagemAlbum" src={SgrPepersLonely} alt="" />
         </div>
-        <div
-          className="AlbumImg"
-        >
-          <img
-            className="ImagemAlbum"
-            src={Um}
-            alt=""
-          />
+        <div className="AlbumImg">
+          <img className="ImagemAlbum" src={Um} alt="" />
         </div>
-        <div
-          className="AlbumImg"
-        >
-          <img
-            className="ImagemAlbum"
-            src={AbbeyRoad}
-            alt=""
-          />
+        <div className="AlbumImg">
+          <img className="ImagemAlbum" src={AbbeyRoad} alt="" />
         </div>
       </div>
       <div className="AlbunsDescrição">
